@@ -20,7 +20,9 @@ export class ChainService {
 
   private _impls: Chain.ChainIntegration[] = [];
 
-  constructor(ic: IcService) {
+  constructor(
+    ic: IcService,
+  ) {
     this._impls = [ic];
   }
 

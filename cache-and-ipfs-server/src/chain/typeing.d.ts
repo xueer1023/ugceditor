@@ -1,12 +1,12 @@
 declare namespace Chain {
   interface ChainIntegration {
     /**
-     * chain identifier. eg. 
+     * chain identifier. 
      */
     chain: string;
 
     /**
-     * chain readable name. eg.
+     * chain readable name. 
      */
     name: string;
 

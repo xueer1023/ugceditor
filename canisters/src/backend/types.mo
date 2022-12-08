@@ -23,6 +23,31 @@ module {
     cid : Text;
   };
 
+  public type Task = {
+    id : Nat;
+    storyId : Nat;
+    cid : Text;
+    creator : Principal;
+    nft : Principal;
+    rewardNfts : [Nat64];
+    nextSubmitId : Nat;
+    status : Nat;
+    // 1 TODO
+    // 2 DONE
+    // 3 CANCELLED
+  };
+  public type TaskSubmit = {
+    id : Nat;
+    storyId : Nat;
+    taskId : Nat;
+    creator : Principal;
+    cid : Text;
+    status : Nat;
+    // 1 PENDING
+    // 2 APPROVED,
+    // 3 WITHDRAWED
+  };
+
   public type TxReceipt = {
     #Ok : Nat;
     #Err : {
@@ -49,5 +74,11 @@ module {
   public type DIP721Interface = actor {
     mintDip721 : (Principal, NftTypes.MetadataDesc) -> async NftTypes.MintReceipt;
     totalSupplyDip721 : () -> async Nat64;
+    ownerOfDip721 : (Nat64) -> async NftTypes.OwnerResult;
+    transferFromDip721 : (
+      Principal,
+      Principal,
+      NftTypes.TokenId,
+    ) -> async NftTypes.TxReceipt;
   };
 };
