@@ -1,0 +1,32 @@
+export default {
+  example: "Example!",
+  "example.withArgs": "Example! args:{ARG}",
+  "page.start.tip.enter": "Touch screen to enter scene",
+  "page.start.tip.connect": "Click to connect your wallet",
+  "page.start.tip.address": "Ethereum Address: {account}",
+  "page.start.tip.loading": "loading scene...",
+  "page.start.tip.switchLang": "切换语言",
+  "page.start.tip.mobile": "Please use PC Chrome",
+  "page.main.title.clue": "Clues {found}/{total}",
+  "page.main.title.prop": "Props",
+  "page.main.label.enter": "E n t e r",
+  "dialog.storySetting.title": "Story Setting",
+  "dialog.storySetting.content":
+    "        A few days ago, a tour group led by Marlo—an overseas tourist guide, set out for a foreign country. However, the happy time is always short. Just as the journey is coming to an end and the group goes to a local theme hotel for rest, the curtain of death has quietly opened...\n\n        At 8:00 a.m. of the next day, the hotel attendant who provided morning wake-up service for guests found the corpse of Marlo, lying in bed. He immediately reported to the police. After preliminary investigation, the hotel attendant’s suspicion was ruled out, and learned that Marlo went out for a run at 7:30p.m. and didn't return to the hotel until 8:45p.m., while the four members of the tour group: student Nancy, student Joy, teacher CoCo and businessman Pershing were controlled as suspects.\n\n        Marlo, a tour guide who died miserably in a foreign country, four tour members who all have sinister motives, the truth behind all this is waiting for you to reveal.",
+  "page.loading.title": "Open Letter",
+  "page.loading.content":
+    "Dear detectives,\n    When you open this letter, I believe you have heard of the murder in this hotel. The pleasant journey ended with the death of the tour guide, as if the whole hotel was immersed in a mist.\n    According to our preliminary investigation, the victim’s name is Marlowe, female, 39 years old, and her occupation is tour guide. The reporter was a hotel attendant. We located four suspects in this case and protected the scene at the first time.\n    The case is full of doubts. We urgently call for professional detectives to help us clear the mist and find the truth!",
+  "page.loading.consignor": "Consignors",
+  "page.form.title": "Commit Answer",
+  "page.main.message.keyRequired": "A key is required to open it!",
+  "page.message.title": "Message",
+  "page.creation.title": "Describe the Truth",
+  "dialog.password.title": "Enter the Password",
+  "dialog.password.subTitle": "Enter the Password",
+  "dialog.password.enter": "Enter",
+  "dialog.password.message.fill": "Please fill the password!",
+  "dialog.password.message.wrong": "Wrong password!",
+  "modal.ipfs-tip":
+    "Your submission has been uploaded to the IPFS network, <a target='_blank' rel='noreferrer noopener' href='https://ipfs.io/ipfs/{ipfsCid}'>click to view</a>.",
+  "operation-mode-tip": "×  Press \"T\" to toggle the control mode",
+};

@@ -1,0 +1,14 @@
+.rpt2_cache
+.idea
+.vscode
+node_modules
+release
+bin/*
+!bin/libs
+!bin/css
+!bin/index.html
+!bin/index.js
+!bin/version.json
+src/ui/layaMaxUI.ts
+src/GameConfig.ts
+**/.DS_Store

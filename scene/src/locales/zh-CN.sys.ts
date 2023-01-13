@@ -1,0 +1,32 @@
+export default {
+  example: "示范!",
+  "example.withArgs": "示范! 参数{ARG}",
+  "page.start.tip.enter": "点击屏幕进入场景",
+  "page.start.tip.connect": "请连接钱包",
+  "page.start.tip.loading": "加载场景中...",
+  "page.start.tip.address": "Ethereum Address: {account}",
+  "page.start.tip.switchLang": "Switch Language",
+  "page.start.tip.mobile": "请使用PC Chrome浏览器",
+  "page.main.title.clue": "线索 {found}/{total}",
+  "page.main.title.prop": "道具",
+  "page.main.label.enter": "进 入",
+  "dialog.storySetting.title": "故事背景",
+  "dialog.storySetting.content":
+    "      几日前，一支由环球旅社境外游资深导游 —— 马洛带领的旅游团出发前往国外。但欢乐的时光总是短暂，就在这次旅途即将步入尾声，一行人前往当地的一家主题酒店进行修整期间，一场死亡帷幕已悄然拉开……\n\n      次日上午8点，为住客提供晨间叫醒服务的酒店员工发现了躺在床上的导游马洛的尸体，并立即报案。经过初步调查排除了酒店服务员的嫌疑，并了解到马洛昨晚7点半出去跑步到8点45才回到酒店。同行的四位旅行团的成员：学生南希、学生乔一、教师CoCo、商人潘兴则作为嫌疑人被控制。\n\n      惨死在异国他乡的导游马洛，四位各怀鬼胎的团员，这一切的真相等待你的揭露。",
+  "page.loading.title": "公开信",
+  "page.loading.content":
+    "致全体探员：\n      当你打开这封信时相信已经听说了发生在这家酒店的命案。本应该愉快的旅途却以导游的死亡收尾，仿佛整个酒店沉浸在一片迷雾之中……\n      根据我们初步调查，死者名为马洛，女性，三十九岁，职业是导游。报案人是酒店服务员，对于此案我们定位到了四位嫌疑人，并第一时间保护了现场。\n      案件疑点重重，急需专业的探员帮助我们拨开迷雾，寻找真相！",
+  "page.loading.consignor": "委托人",
+  "page.form.title": "提交回答",
+  "page.main.message.keyRequired": "需要使用钥匙开启！",
+  "page.message.title": "留言",
+  "page.creation.title": "叙写真相",
+  "dialog.password.title": "输入密码",
+  "dialog.password.subTitle": "输入密码",
+  "dialog.password.enter": "确认",
+  "dialog.password.message.fill": "请输入密码！",
+  "dialog.password.message.wrong": "密码错误！",
+  "modal.ipfs-tip":
+    "你的创作内容已上传至IPFS网络，<a target='_blank' rel='noreferrer noopener' href='https://ipfs.io/ipfs/{ipfsCid}'>点击查看</a>。",
+  "operation-mode-tip": "×  按下 \"T\" 键以切换操作方式",
+};
